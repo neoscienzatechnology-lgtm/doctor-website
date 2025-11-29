@@ -25,7 +25,7 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-card/95 backdrop-blur-md shadow-lg" : "bg-transparent"
+        isScrolled ? "bg-card/95 backdrop-blur-md shadow-lg" : "bg-background/80 backdrop-blur-sm"
       }`}
     >
       <div className="container mx-auto px-4">
@@ -34,7 +34,7 @@ const Header = () => {
             <img 
               src="https://drcarloscesarrangel.com.br/wp-content/uploads/2024/12/logo-cesar-douglas.png" 
               alt="Dr. Carlos Cesar Rangel" 
-              className="h-14 w-auto"
+              className="h-14 w-auto brightness-100 contrast-125"
             />
           </div>
 
@@ -42,19 +42,19 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <button
               onClick={() => scrollToSection("sobre")}
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className="text-foreground/90 hover:text-primary transition-colors font-semibold"
             >
               Sobre
             </button>
             <button
               onClick={() => scrollToSection("especialidades")}
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className="text-foreground/90 hover:text-primary transition-colors font-semibold"
             >
               Especialidades
             </button>
             <button
               onClick={() => scrollToSection("contato")}
-              className="text-foreground hover:text-primary transition-colors font-medium"
+              className="text-foreground/90 hover:text-primary transition-colors font-semibold"
             >
               Contato
             </button>
@@ -82,19 +82,19 @@ const Header = () => {
           <nav className="md:hidden py-6 space-y-4 border-t border-border animate-fade-in">
             <button
               onClick={() => scrollToSection("sobre")}
-              className="block w-full text-left text-foreground hover:text-primary transition-colors font-medium py-2"
+              className="block w-full text-left text-foreground/90 hover:text-primary transition-colors font-semibold py-2"
             >
               Sobre
             </button>
             <button
               onClick={() => scrollToSection("especialidades")}
-              className="block w-full text-left text-foreground hover:text-primary transition-colors font-medium py-2"
+              className="block w-full text-left text-foreground/90 hover:text-primary transition-colors font-semibold py-2"
             >
               Especialidades
             </button>
             <button
               onClick={() => scrollToSection("contato")}
-              className="block w-full text-left text-foreground hover:text-primary transition-colors font-medium py-2"
+              className="block w-full text-left text-foreground/90 hover:text-primary transition-colors font-semibold py-2"
             >
               Contato
             </button>
