@@ -1,5 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { GraduationCap, Award, Heart } from "lucide-react";
+import drCarlosImage from "@/assets/dr-carlos.png";
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-r from-primary to-medical-accent rounded-2xl opacity-20 blur-2xl"></div>
               <img
-                src="https://drcarloscesarrangel.com.br/wp-content/uploads/2024/12/Oftalmologista-640x426.jpg"
+                src={drCarlosImage}
                 alt="Dr. Carlos Cesar Rangel"
                 className="relative rounded-2xl shadow-2xl w-full object-cover"
               />
