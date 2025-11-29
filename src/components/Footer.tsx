@@ -8,16 +8,12 @@ const Footer = () => {
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           <div>
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-                <span className="text-primary-foreground font-heading font-bold text-xl">DR</span>
-              </div>
-              <div>
-                <h3 className="font-heading font-bold text-lg leading-tight">
-                  Dr. Carlos Cesar Rangel
-                </h3>
-                <p className="text-sm text-white/70">Oftalmologista</p>
-              </div>
+            <div className="mb-4">
+              <img 
+                src="https://drcarloscesarrangel.com.br/wp-content/uploads/2024/12/logo-cesar-douglas.png" 
+                alt="Dr. Carlos Cesar Rangel" 
+                className="h-12 w-auto mb-4 brightness-0 invert"
+              />
             </div>
             <p className="text-white/80 text-sm">
               Cuidando da sua saúde ocular com excelência, dedicação e tecnologia de ponta.

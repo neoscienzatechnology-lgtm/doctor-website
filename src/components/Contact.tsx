@@ -32,8 +32,8 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Endereço</h4>
                   <p className="text-muted-foreground">
-                    Rua Exemplo, 123 - Centro<br />
-                    Sorocaba - SP, 18000-000
+                    Rua Rodrigues Alves, 497<br />
+                    Vila Tibério, Ribeirão Preto - SP
                   </p>
                 </div>
               </div>
@@ -44,12 +44,16 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Telefone</h4>
-                  <a href="tel:+551532211234" className="text-primary hover:text-primary/80 transition-colors">
-                    (15) 3221-1234
+                  <a href="tel:+551630111571" className="text-primary hover:text-primary/80 transition-colors">
+                    (16) 3011-1571
                   </a>
                   <br />
-                  <a href="tel:+5515999887766" className="text-primary hover:text-primary/80 transition-colors">
-                    (15) 99988-7766
+                  <a href="tel:+551631040486" className="text-primary hover:text-primary/80 transition-colors">
+                    (16) 3104-0486
+                  </a>
+                  <br />
+                  <a href="tel:+5516991354907" className="text-primary hover:text-primary/80 transition-colors">
+                    (16) 99135-4907
                   </a>
                 </div>
               </div>
@@ -60,8 +64,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Email</h4>
-                  <a href="mailto:contato@drcarloscesarrangel.com.br" className="text-primary hover:text-primary/80 transition-colors">
-                    contato@drcarloscesarrangel.com.br
+                  <a href="mailto:oftalmologia@drcarloscesarrangel.com.br" className="text-primary hover:text-primary/80 transition-colors">
+                    oftalmologia@drcarloscesarrangel.com.br
                   </a>
                 </div>
               </div>
@@ -73,8 +77,8 @@ const Contact = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Horário de Atendimento</h4>
                   <p className="text-muted-foreground">
-                    Segunda a Sexta: 8h às 18h<br />
-                    Sábado: 8h às 12h
+                    Segunda a Sexta: 07h30 às 11h e 13h30 às 19h<br />
+                    Sábado: 07h30 às 13h
                   </p>
                 </div>
               </div>
@@ -85,7 +89,7 @@ const Contact = () => {
               className="w-full mt-8 bg-primary hover:bg-primary/90 text-primary-foreground"
               asChild
             >
-              <a href="https://wa.me/5515999887766" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/5516991354907" target="_blank" rel="noopener noreferrer">
                 <Phone className="w-5 h-5 mr-2" />
                 Falar via WhatsApp
               </a>
@@ -94,7 +98,7 @@ const Contact = () => {
 
           <Card className="p-0 overflow-hidden border-2 animate-fade-in" style={{ animationDelay: "200ms" }}>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.4926486766447!2d-47.45859168502131!3d-23.501666984694893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58a7e3c0e89b9%3A0x8e29c3b5e5b5e5b5!2sSorocaba%2C%20SP!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3720.3823456789012!2d-47.8123456789012!3d-21.1812345678901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b9bf0f0b0b0b0b%3A0x1234567890abcdef!2sRua%20Rodrigues%20Alves%2C%20497%20-%20Vila%20Tib%C3%A9rio%2C%20Ribeir%C3%A3o%20Preto%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1234567890123"
               width="100%"
               height="100%"
               style={{ border: 0, minHeight: "500px" }}

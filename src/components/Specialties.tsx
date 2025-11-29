@@ -4,33 +4,33 @@ import { Eye, Sparkles, Scan, Stethoscope, Zap, Glasses } from "lucide-react";
 const specialties = [
   {
     icon: Eye,
-    title: "Catarata",
-    description: "Diagnóstico e cirurgia de catarata com lentes intraoculares premium e técnicas modernas.",
-  },
-  {
-    icon: Scan,
-    title: "Glaucoma",
-    description: "Tratamento e acompanhamento de glaucoma com tecnologia avançada de diagnóstico.",
-  },
-  {
-    icon: Sparkles,
-    title: "Cirurgia Refrativa",
-    description: "Correção de miopia, hipermetropia e astigmatismo através de cirurgia a laser.",
+    title: "Consultas Gerais",
+    description: "Medida da acuidade visual, exames para prescrição de óculos ou lentes de contato, exame por Lâmpada de Fenda, Fundoscopia e Tonometria.",
   },
   {
     icon: Stethoscope,
-    title: "Retina",
-    description: "Tratamento de doenças da retina incluindo retinopatia diabética e DMRI.",
+    title: "Acompanhamento Clínico",
+    description: "Acompanhamento dos distúrbios visuais decorrentes de hipertensão arterial, diabetes, doenças reumáticas e outras doenças crônicas.",
   },
   {
     icon: Zap,
     title: "Urgências Oculares",
-    description: "Atendimento especializado em emergências oftalmológicas e traumas oculares.",
+    description: "Traumas e acidentes oculares, retirada de corpos estranhos, diagnóstico e tratamento de doenças infectocontagiosas.",
+  },
+  {
+    icon: Eye,
+    title: "Doenças Oculares",
+    description: "Tratamento de conjuntivites, blefarites, hordéolos, calázios, uveítes e doenças inflamatórias e alérgicas oculares.",
   },
   {
     icon: Glasses,
-    title: "Exames Completos",
-    description: "Avaliação oftalmológica completa com equipamentos de última geração.",
+    title: "Erros Refrativos",
+    description: "Correção e tratamento de miopia, hipermetropia, astigmatismo e presbiopia com soluções personalizadas.",
+  },
+  {
+    icon: Scan,
+    title: "Doenças Especializadas",
+    description: "Tratamento de catarata, glaucoma, estrabismo, ceratocone e olho seco com tecnologia avançada.",
   },
 ];
 

@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Phone, Award, Clock } from "lucide-react";
-import heroImage from "@/assets/hero-clinic.jpg";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -15,7 +14,7 @@ const Hero = () => {
       <div
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `linear-gradient(to right, rgba(5, 49, 74, 0.95), rgba(5, 49, 74, 0.7)), url(${heroImage})`,
+          backgroundImage: `linear-gradient(to right, rgba(5, 49, 74, 0.95), rgba(5, 49, 74, 0.7)), url(https://drcarloscesarrangel.com.br/wp-content/uploads/2024/12/Oftalmologista-640x426.jpg)`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
