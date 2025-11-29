@@ -91,7 +91,7 @@ const Footer = () => {
               </a>
             </div>
             <p className="text-white/60 text-xs mt-6">
-              CRM-SP XXXXX
+              CRM-SP 60.302
             </p>
           </div>
         </div>
