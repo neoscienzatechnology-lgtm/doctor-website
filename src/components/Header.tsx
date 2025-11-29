@@ -31,15 +31,11 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center space-x-2">
-            <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center">
-              <span className="text-primary-foreground font-heading font-bold text-xl">DR</span>
-            </div>
-            <div>
-              <h1 className="font-heading font-bold text-lg leading-tight text-foreground">
-                Dr. Carlos Cesar Rangel
-              </h1>
-              <p className="text-xs text-muted-foreground">Oftalmologista</p>
-            </div>
+            <img 
+              src="https://drcarloscesarrangel.com.br/wp-content/uploads/2024/12/logo-cesar-douglas.png" 
+              alt="Dr. Carlos Cesar Rangel" 
+              className="h-14 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
