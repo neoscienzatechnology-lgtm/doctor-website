@@ -1,22 +1,28 @@
 import hapvidaLogo from "@/assets/insurances/hapvida.png";
 import bradescoLogo from "@/assets/insurances/bradesco.png";
 import nipomedLogo from "@/assets/insurances/nipomed.png";
+import mediserviceLogo from "@/assets/insurances/mediservice.png";
+import simLogo from "@/assets/insurances/sim.png";
+import idealLogo from "@/assets/insurances/ideal.png";
+import solumediLogo from "@/assets/insurances/solumedi.png";
+import baldocchiLogo from "@/assets/insurances/baldocchi.png";
+import preverLogo from "@/assets/insurances/prever.png";
 
 const Insurance = () => {
   const insurances = [
     { name: "Hapvida", logo: hapvidaLogo },
     { name: "Bradesco", logo: bradescoLogo },
     { name: "Nipomed", logo: nipomedLogo },
-    { name: "Medservice", logo: null },
-    { name: "Solumedi", logo: null },
+    { name: "Mediservice", logo: mediserviceLogo },
+    { name: "SIM", logo: simLogo },
+    { name: "Ideal", logo: idealLogo },
+    { name: "Solumedi", logo: solumediLogo },
+    { name: "Baldocchi", logo: baldocchiLogo },
+    { name: "Prever", logo: preverLogo },
     { name: "SEAAC", logo: null },
     { name: "Sassom", logo: null },
     { name: "Nicacio", logo: null },
-    { name: "Badocchi", logo: null },
-    { name: "Simpae", logo: null },
-    { name: "Ideal", logo: null },
-    { name: "Prever", logo: null },
-    { name: "SIM", logo: null }
+    { name: "Simpae", logo: null }
   ];
 
   return (
