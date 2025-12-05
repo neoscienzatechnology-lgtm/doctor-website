@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X, Phone } from "lucide-react";
-
+import logo from "@/assets/logo.png";
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -32,7 +32,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center space-x-2">
             <img 
-              src="https://drcarloscesarrangel.com.br/wp-content/uploads/2024/12/logo-cesar-douglas.png" 
+              src={logo} 
               alt="Dr. Carlos Cesar Rangel" 
               className="h-14 w-auto brightness-100 contrast-125"
             />
