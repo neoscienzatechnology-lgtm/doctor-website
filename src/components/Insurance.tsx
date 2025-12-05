@@ -1,57 +1,20 @@
+import hapvidaLogo from "@/assets/insurances/hapvida.png";
+
 const Insurance = () => {
   const insurances = [
-    {
-      name: "Medservice",
-      logo: "https://drcarloscesarrangel.com.br/wp-content/uploads/2024/12/medservice.png"
-    },
-    {
-      name: "Solumedi",
-      logo: "https://drcarloscesarrangel.com.br/wp-content/uploads/2024/12/solumedi.png"
-    },
-    {
-      name: "SEAAC",
-      logo: "https://drcarloscesarrangel.com.br/wp-content/uploads/2024/12/seaac.png"
-    },
-    {
-      name: "Sassom",
-      logo: "https://drcarloscesarrangel.com.br/wp-content/uploads/2024/12/sassom.png"
-    },
-    {
-      name: "Nicacio",
-      logo: "https://drcarloscesarrangel.com.br/wp-content/uploads/2024/12/nicacio.png"
-    },
-    {
-      name: "Hapvida",
-      logo: "https://drcarloscesarrangel.com.br/wp-content/uploads/2024/12/hapvida.png"
-    },
-    {
-      name: "Bradesco",
-      logo: "https://drcarloscesarrangel.com.br/wp-content/uploads/2024/12/bradesco.png"
-    },
-    {
-      name: "Badocchi",
-      logo: "https://drcarloscesarrangel.com.br/wp-content/uploads/2024/12/badocchi.png"
-    },
-    {
-      name: "Simpae",
-      logo: "https://drcarloscesarrangel.com.br/wp-content/uploads/2024/12/simpae.png"
-    },
-    {
-      name: "Ideal",
-      logo: "https://drcarloscesarrangel.com.br/wp-content/uploads/2024/12/ideal.png"
-    },
-    {
-      name: "Prever",
-      logo: "https://drcarloscesarrangel.com.br/wp-content/uploads/2024/12/prever.png"
-    },
-    {
-      name: "SIM",
-      logo: "https://drcarloscesarrangel.com.br/wp-content/uploads/2024/12/sim.png"
-    },
-    {
-      name: "Nipomed",
-      logo: "https://drcarloscesarrangel.com.br/wp-content/uploads/2024/12/nipomed.png"
-    }
+    { name: "Hapvida", logo: hapvidaLogo },
+    { name: "Bradesco Saúde", logo: null },
+    { name: "Medservice", logo: null },
+    { name: "Solumedi", logo: null },
+    { name: "SEAAC", logo: null },
+    { name: "Sassom", logo: null },
+    { name: "Nicacio", logo: null },
+    { name: "Badocchi", logo: null },
+    { name: "Simpae", logo: null },
+    { name: "Ideal", logo: null },
+    { name: "Prever", logo: null },
+    { name: "SIM", logo: null },
+    { name: "Nipomed", logo: null }
   ];
 
   return (
@@ -66,17 +29,23 @@ const Insurance = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 items-center justify-items-center max-w-6xl mx-auto">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 items-center justify-items-center max-w-6xl mx-auto">
           {insurances.map((insurance) => (
             <div
               key={insurance.name}
-              className="bg-background/80 backdrop-blur-sm rounded-xl p-6 hover:scale-105 transition-transform duration-300 w-full h-32 flex items-center justify-center shadow-md hover:shadow-lg"
+              className="bg-background/80 backdrop-blur-sm rounded-xl p-6 hover:scale-105 transition-transform duration-300 w-full h-28 flex items-center justify-center shadow-md hover:shadow-lg border border-border/50"
             >
-              <img
-                src={insurance.logo}
-                alt={insurance.name}
-                className="max-w-full max-h-20 object-contain filter hover:brightness-110 transition-all"
-              />
+              {insurance.logo ? (
+                <img
+                  src={insurance.logo}
+                  alt={insurance.name}
+                  className="max-w-full max-h-16 object-contain"
+                />
+              ) : (
+                <span className="text-lg font-semibold text-primary text-center">
+                  {insurance.name}
+                </span>
+              )}
             </div>
           ))}
         </div>
