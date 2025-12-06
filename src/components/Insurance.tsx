@@ -7,6 +7,7 @@ import idealLogo from "@/assets/insurances/ideal.png";
 import solumediLogo from "@/assets/insurances/solumedi.png";
 import baldocchiLogo from "@/assets/insurances/baldocchi.png";
 import preverLogo from "@/assets/insurances/prever.png";
+import seaacLogo from "@/assets/insurances/seaac.png";
 
 const Insurance = () => {
   const insurances = [
@@ -19,7 +20,7 @@ const Insurance = () => {
     { name: "Solumedi", logo: solumediLogo },
     { name: "Baldocchi", logo: baldocchiLogo },
     { name: "Prever", logo: preverLogo },
-    { name: "SEAAC", logo: null },
+    { name: "SEAAC", logo: seaacLogo },
     { name: "Sassom", logo: null },
     { name: "Nicacio", logo: null },
     { name: "Simpae", logo: null }
