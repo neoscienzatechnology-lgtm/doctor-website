@@ -1,13 +1,16 @@
 import hapvidaLogo from "@/assets/insurances/hapvida.png";
 import bradescoLogo from "@/assets/insurances/bradesco.png";
-import nipomedLogo from "@/assets/insurances/nipomed.png";
-import mediserviceLogo from "@/assets/insurances/mediservice.png";
+import nipomedLogo from "@/assets/insurances/nipomed.jpg";
+import mediserviceLogo from "@/assets/insurances/mediservice.jpg";
 import simLogo from "@/assets/insurances/sim.png";
-import idealLogo from "@/assets/insurances/ideal.png";
-import solumediLogo from "@/assets/insurances/solumedi.png";
-import baldocchiLogo from "@/assets/insurances/baldocchi.png";
-import preverLogo from "@/assets/insurances/prever.png";
-import seaacLogo from "@/assets/insurances/seaac.png";
+import idealLogo from "@/assets/insurances/ideal.jpg";
+import solumediLogo from "@/assets/insurances/solumedi.jpg";
+import baldocchiLogo from "@/assets/insurances/baldocchi.jpg";
+import preverLogo from "@/assets/insurances/prever.jpg";
+import seaacLogo from "@/assets/insurances/seaac.jpg";
+import sassomLogo from "@/assets/insurances/sassom.jpg";
+import nicacioLogo from "@/assets/insurances/nicacio.jpg";
+import sinpaaeLogo from "@/assets/insurances/sinpaae.jpg";
 
 const Insurance = () => {
   const insurances = [
@@ -21,8 +24,9 @@ const Insurance = () => {
     { name: "Baldocchi", logo: baldocchiLogo },
     { name: "Prever", logo: preverLogo },
     { name: "SEAAC", logo: seaacLogo },
-    { name: "Sassom", logo: null },
-    { name: "Nicacio", logo: null },
+    { name: "Sassom", logo: sassomLogo },
+    { name: "Nicácio", logo: nicacioLogo },
+    { name: "SINPAAE", logo: sinpaaeLogo },
     { name: "Simpae", logo: null }
   ];
 
