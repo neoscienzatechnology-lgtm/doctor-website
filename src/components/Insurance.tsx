@@ -1,5 +1,5 @@
-import hapvidaLogo from "@/assets/insurances/hapvida.png";
-import bradescoLogo from "@/assets/insurances/bradesco.png";
+import hapvidaLogo from "@/assets/insurances/hapvida.jpg";
+import bradescoLogo from "@/assets/insurances/bradesco.jpg";
 import nipomedLogo from "@/assets/insurances/nipomed.jpg";
 import mediserviceLogo from "@/assets/insurances/mediservice.jpg";
 import simLogo from "@/assets/insurances/sim.png";
@@ -26,8 +26,7 @@ const Insurance = () => {
     { name: "SEAAC", logo: seaacLogo },
     { name: "Sassom", logo: sassomLogo },
     { name: "Nicácio", logo: nicacioLogo },
-    { name: "SINPAAE", logo: sinpaaeLogo },
-    { name: "Simpae", logo: null }
+    { name: "SINPAAE", logo: sinpaaeLogo }
   ];
 
   return (
